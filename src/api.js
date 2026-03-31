@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Change this to your GCP Gateway IP when deploying to cloud
 // e.g. http://34.xx.xx.xx:8080
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://34.126.150.171:8080";
 
 const gateway = axios.create({ baseURL: BASE_URL });
 
